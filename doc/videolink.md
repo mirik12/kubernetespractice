@@ -10,3 +10,6 @@ https://asciinema.org/a/6Ghj2vGSqkPla4wa7IbB4Wh1U
 
 Create and manage Deployments
 https://asciinema.org/a/IqLxZnOhgxQWwogadl57Xp1ck
+
+Kubernetes Services 
+https://asciinema.org/a/hca39CxY9wbsXYq5eeRKoGNhK
