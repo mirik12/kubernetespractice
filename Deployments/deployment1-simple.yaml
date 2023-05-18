@@ -1,0 +1,20 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: my-web-deployment
+  labels:
+    app : my-k8s-application
+spec:
+  selector: 
+    matchLabels:
+     project: sbu
+  template:
+    metadata:
+      labels:
+        project: sbu
+    spec:
+      containers:
+        - name : sbu-web
+          image : mirik12mirik/k8sphp:version1
+          ports:
+            - containerPort: 80

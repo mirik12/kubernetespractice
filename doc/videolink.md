@@ -7,3 +7,6 @@ https://asciinema.org/a/ebv5DKce16QQOxtdfnxbfxIpB
 
 Create and manage PODS
 https://asciinema.org/a/6Ghj2vGSqkPla4wa7IbB4Wh1U
+
+Create and manage Deployments
+https://asciinema.org/a/IqLxZnOhgxQWwogadl57Xp1ck
