@@ -1,0 +1,6 @@
+
+
+container:
+  image: mirik12mirik/k8sphp:latest
+
+replicaCount: 2

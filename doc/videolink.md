@@ -13,3 +13,9 @@ https://asciinema.org/a/IqLxZnOhgxQWwogadl57Xp1ck
 
 Kubernetes Services 
 https://asciinema.org/a/hca39CxY9wbsXYq5eeRKoGNhK
+
+Kubernetes Ingress-Controller
+https://asciinema.org/a/xr1Moxa1gYteCetOcTpbhx3wb
+
+Kubernetes Helm Chart
+https://asciinema.org/a/dqsAATABdoLLqqe7mUZTsQbdp

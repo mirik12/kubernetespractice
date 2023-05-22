@@ -1,0 +1,46 @@
+history
+
+asciinema rec
+ 1906* ll
+ 1907* cd helm
+ 1908* helm list
+ 1909* helm install app Chart-mirik
+ 1910* helm list
+ 1911* k get pods
+ 1912* alias k=kubectl
+ 1913* k get pods
+ 1914* k get deploy
+ 1915* k delete deployment tomcat
+ 1916* k get deploy
+ 1917* k get svc
+ 1918* helm install app1 Chart-mirik --set container.image=mirik12mirik/k8sphp:version1 --set replicaCount=3
+ 1919* helm list
+ 1920* k get svc
+ 1921* k get pods
+ 1922* helm upgrade app1 Chart-mirik --set container.image=mirik12mirik/k8sphp:version1 --set replicaCount=4
+ 1923* k get pods
+ 1924* helm list
+ 1925* k get svc
+ 1926* touch prod-values.yaml
+ 1927* cat prod-values.yaml
+ 1928* helm install app2 Chart-mirik
+ 1929* helm upgrade app2 Chart-mirik -f prod-values.yaml
+ 1930* helm list
+ 1931* k get svc
+ 1932* k get pods
+ 1933* ll
+ 1934* helm package Chart-mirik
+ 1935* ll
+ 1936* helm install app4 App-HelmChart-0.1.0.tgz
+ 1937* helm list
+ 1938* helm search repo
+ 1939* helm search hub apache
+ 1940* helm repo add bitnami https://charts.bitnami.com/bitnami
+ 1941* helm search repo
+ 1942* helm install website-apache bitnami/apache
+ 1943* helm list
+ 1944* k get svc
+ 1945  helm delete app
+ 1946  helm list
+ 1947  helm delete app1 app2 app4 website-apache 
+ 1948  helm list
