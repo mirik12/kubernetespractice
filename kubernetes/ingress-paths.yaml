@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-paths
+spec:
+  rules:
+  - host: www.adv-it.net
+    http:
+      paths:
+      - path: /page1
+        pathType: Prefix
+        backend:
+          service:
+            name: webx
+            port:
+              number: 80
+      - path: /page2
+        pathType: Prefix
+        backend:
+          service:
+            name: webx
+            port:
+              number: 80
+      - path: /page3
+        pathType: Prefix
+        backend:
+          service:
+            name: webx
+            port:
+              number: 80
